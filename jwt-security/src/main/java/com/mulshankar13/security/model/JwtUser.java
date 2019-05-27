@@ -1,0 +1,36 @@
+package com.mulshankar13.security.model;
+
+public class JwtUser {
+
+	private String userName;
+	
+	private long id;
+	
+	private String role;
+
+	public String getUserName() {
+		return userName;
+	}
+
+	public void setUserName(String userName) {
+		this.userName = userName;
+	}
+
+	public long getId() {
+		return id;
+	}
+
+	public void setId(long id) {
+		this.id = id;
+	}
+
+	public void setRole(String role) {
+		this.role= role;
+	}
+	
+	public String getRole() {
+		return role;
+	}
+
+
+}
